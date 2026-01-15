@@ -1,0 +1,106 @@
+/*
+Hoja de estilos para catalogoCursos.jsp.
+*/
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #2d3e50;
+}
+
+h1.text-center {
+    margin-bottom: 30px;
+}
+
+p.text-center {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Estilos para los cursos */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.6rem;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.card-text strong {
+    font-weight: 700;
+}
+
+.card img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Estilos del botón */
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Alertas */
+.alert-warning {
+    font-size: 1.2rem;
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #2d3e50;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+

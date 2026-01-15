@@ -1,0 +1,67 @@
+/*
+Hoja de estilos para salir.jsp.
+*/
+
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header h1 {
+    color: #007bff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Imagen de fondo */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* Texto centralizado */
+h1 {
+    color: #28a745;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Espaciado adicional */
+br {
+    margin-bottom: 20px;
+}
+
+/* Estilo de los botones */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para cualquier alerta de sesión cerrada */
+.alert {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    color: #155724;
+}
+
+

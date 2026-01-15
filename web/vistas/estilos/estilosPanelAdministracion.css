@@ -1,0 +1,11 @@
+/*
+Hoja de estilos para panelAdministracion.jsp.
+*/
+
+body {
+    padding-top: 56px;
+}
+.sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+}

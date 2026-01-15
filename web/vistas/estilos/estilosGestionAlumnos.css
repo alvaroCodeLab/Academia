@@ -1,0 +1,93 @@
+/*
+Hoja de estilos para gestionAlumnos.jsp.
+*/
+
+body {
+    background-color: #f8f9fa; /* Color de fondo suave */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenido ocupe toda la altura */
+}
+
+.header {
+    background-color: #1abc9c; /* Azul turquesa */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Asegura que el pie de página se quede en la parte inferior */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #16a085;
+    border-color: #16a085;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+footer {
+    margin-top: 2rem;
+}
