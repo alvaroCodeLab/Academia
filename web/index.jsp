@@ -20,7 +20,7 @@ para dar la bienvenida a los usuarios antes de que inicien sesión en el sistema
             <h1 class="display-4">Academia de Cursos</h1>
             <p class="lead">Tu futuro comienza aquí</p>
             <!-- Imagen de encabezado -->
-            <img src="./vistas/img/index.avif" alt="Academia de Cursos" class="header-image">
+            <img src="./vistas/img/index.jpg" alt="Academia de Cursos" class="header-image">
         </header>
 
         <!-- Contenido principal -->
