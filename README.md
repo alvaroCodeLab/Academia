@@ -1,5 +1,6 @@
 # Academia
 
+[![Último commit](https://img.shields.io/github/last-commit/alvaroCodeLab/Academia?color=green)](https://github.com/alvaroCodeLab/Academia/commits/main)
 [![Java](https://img.shields.io/badge/Java-17-blue?logo=java&logoColor=white)](https://www.java.com/)
 [![NetBeans](https://img.shields.io/badge/IDE-NetBeans-orange?logo=apache-netbeans&logoColor=white)](https://netbeans.apache.org/)
 [![GitHub](https://img.shields.io/badge/GitHub-alvaroCodeLab-181717?logo=github&logoColor=white)](https://github.com/alvaroCodeLab)
