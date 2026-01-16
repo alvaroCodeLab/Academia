@@ -4,6 +4,9 @@
 [![Java](https://img.shields.io/badge/Java-17-blue?logo=java&logoColor=white)](https://www.java.com/)
 [![NetBeans](https://img.shields.io/badge/IDE-NetBeans-orange?logo=apache-netbeans&logoColor=white)](https://netbeans.apache.org/)
 [![GitHub](https://img.shields.io/badge/GitHub-alvaroCodeLab-181717?logo=github&logoColor=white)](https://github.com/alvaroCodeLab)
+[![Tamaño del repo](https://img.shields.io/github/repo-size/alvaroCodeLab/Academia?color=orange)](https://github.com/alvaroCodeLab/Academia)
+[![License](https://img.shields.io/github/license/alvaroCodeLab/Academia?color=blue)](https://github.com/alvaroCodeLab/Academia/blob/main/LICENSE)
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/alvaroCodeLab/Academia)
 
 ---
 
