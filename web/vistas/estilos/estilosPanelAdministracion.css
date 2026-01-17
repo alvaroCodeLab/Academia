@@ -4,8 +4,62 @@ Hoja de estilos para panelAdministracion.jsp.
 
 body {
     padding-top: 56px;
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
 }
+
+/* Sidebar */
 .sidebar {
-    height: 100vh;
-    background-color: #f8f9fa;
+    min-height: 100vh;
+    background-color: #212529;
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    color: #adb5bd;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 4px 10px;
+    transition: all 0.3s;
+}
+
+.sidebar .nav-link i {
+    font-size: 1.1rem;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/* Contenido principal */
+.main-content {
+    margin-top: 20px;
+}
+
+/* Cards estadísticas */
+.stat-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.stat-card h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stat-card span {
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.stat-card .icon {
+    font-size: 3rem;
+    opacity: 0.8;
 }
