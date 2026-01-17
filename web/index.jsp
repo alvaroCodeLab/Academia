@@ -40,7 +40,7 @@ para dar la bienvenida a los usuarios antes de que inicien sesión en el sistema
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
                 <div class="col">
                     <div class="card card-custom">
-                        <img src="./vistas/img/programacion.avif" class="card-img-top" alt="Curso de Programación">
+                        <img src="./vistas/img/programacion.jpg" class="card-img-top" alt="Curso de Programación">
                         <div class="card-body-custom">
                             <h5 class="card-title">Cursos de Programación</h5>
                             <p class="card-text">Aprende a programar desde cero con nuestros cursos interactivos.</p>
@@ -49,7 +49,7 @@ para dar la bienvenida a los usuarios antes de que inicien sesión en el sistema
                 </div>
                 <div class="col">
                     <div class="card card-custom">
-                        <img src="./vistas/img/diseño.avif" class="card-img-top" alt="Curso de Diseño">
+                        <img src="./vistas/img/diseño.jpg" class="card-img-top" alt="Curso de Diseño">
                         <div class="card-body-custom">
                             <h5 class="card-title">Cursos de Diseño</h5>
                             <p class="card-text">Desarrolla tus habilidades creativas y aprende diseño gráfico.</p>
