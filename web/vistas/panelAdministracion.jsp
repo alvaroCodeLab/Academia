@@ -9,6 +9,9 @@ JSP que contiene el panel de administración de la academia.
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Panel de Administración</title>
         
+        <!-- Icono del sitio web -->
+        <link href="./vistas/img/favicom/website_icon.png" rel="website icon" type="png">
+        
         <!-- Bootstrap 5 -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 

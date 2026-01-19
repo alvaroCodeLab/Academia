@@ -10,6 +10,10 @@ para dar la bienvenida a los usuarios antes de que inicien sesión en el sistema
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bienvenido a la Academia de Cursos</title>
+        
+        <!-- Icono del panel de alumnos -->
+        <link href="./vistas/img/favicom/website_icon.png" rel="website icon" type="png">
+        
         <!-- Enlace a Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="./vistas/estilos/estilosIndex.css" rel="stylesheet">
