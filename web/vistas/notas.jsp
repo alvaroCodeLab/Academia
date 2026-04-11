@@ -9,15 +9,28 @@ JSP que contiene las notas de los alumnos de la academia.
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+
+    <!-- 🔥 imprescindible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mis Notas</title>
-    <!-- Enlace a Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link href="./vistas/estilos/estilosNotas.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <h2>Mis Notas</h2>
-        <table class="table">
+
+<div class="container py-4">
+
+    <h2 class="text-center mb-4">Mis Notas</h2>
+
+    <!-- 🔥 CLAVE: tabla responsive -->
+    <div class="table-responsive">
+        <table class="table table-striped align-middle">
+
             <thead>
                 <tr>
                     <th>Curso</th>
@@ -25,11 +38,11 @@ JSP que contiene las notas de los alumnos de la academia.
                     <th>Nota</th>
                 </tr>
             </thead>
+
             <tbody>
                 <%
                     List<Nota> notas = (List<Nota>) request.getAttribute("notas");
                     if (notas != null && !notas.isEmpty()) {
-                        // Bucle para mostrar las notas
                         for (Nota nota : notas) {
                 %>
                 <tr>
@@ -38,16 +51,20 @@ JSP que contiene las notas de los alumnos de la academia.
                     <td><%= nota.getNota()%></td>
                 </tr>
                 <%
-                    }
-                } else { 
+                        }
+                    } else {
                 %>
                 <tr>
                     <td colspan="3" class="no-notas">No tienes notas registradas.</td>
                 </tr>
-                <% }%> 
+                <% } %>
             </tbody>
+
         </table>
     </div>
+
+</div>
+
 </body>
 </html>
 
